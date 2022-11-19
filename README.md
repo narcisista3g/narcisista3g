@@ -39,11 +39,11 @@ Here are some ideas to get you started:
 ```typescript
 import { message } from "narcisistajs";
 
-class NarcisistaOficial {
+class Narcisista {
   private message: string[];
 
   contructor() {
-    this.message = ["ts", "js", "py", "c"]
+    this.message = ["ts", "js", "py"]
   };
 
   public async function SendMessage(): Promise<string> {
@@ -55,7 +55,7 @@ class NarcisistaOficial {
   };
 };
 
-export { NarcisistaOficial };
+export { Narcisista };
 ```
 
 <br />
