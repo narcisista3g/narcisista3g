@@ -28,10 +28,64 @@
 </head>
 <body>
   <header></header>
-  <aside></aside>
   <main>
-    <section></section>
-    <article></article>
+    <aside class="sidebar" data-sidebar>
+      <div class="sidebar-info">
+        <figure class="avatar-box">
+          <img src="https://github.com/narcisista3g.png" alt="Alan Silva" width="80" title="Avatar Github" />
+        </figure>
+        <div class="info-content">
+          <h1 class="name" title="Alan Silva">Alan Silva</h1>
+          <p class="title">Desenvolvedor Web</p>
+        </div>
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Mostrar Contatos</span>
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+      </div>
+      <div class="sidebar-info_more">
+        <div class="separator"></div>
+        <ul class="contacts-list">
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+              <a href="mailto:alansilvaprogramador@outlook.com" class="contact-link">alansilvaprogramador@outlook.com</a>
+            </div>
+          </li>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Whatsapp</p>
+              <a href="https://wa.me/5511984530897" class="contact-link">+55 (11) 984530897</a>
+            </div>
+          </li>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Nascimento</p>
+              <time datetime="2001-09-06">06/09/2001</time>
+            </div>
+          </li>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Localização</p>
+              <address>São Paulo, SP</address>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </aside>
+    <section class="main-content"></section>
   </main>
   <footer>
     <!--
