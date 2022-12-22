@@ -35,9 +35,9 @@ Here are some ideas to get you started:
 <a  href="https://discord.gg/6cr4MnsCYY"><img align="right" src="https://discordapp.com/api/guilds/1039840281094266910/widget.png?style=banner4"/></a>
 
 ```typescript
-import { message } from "narcisistajs";
+import { message } from "narcisista";
 
-class Narcisista {
+export class Narcisista {
   private message: string[];
 
   contructor() {
@@ -52,8 +52,6 @@ class Narcisista {
     return msg;
   };
 };
-
-export { Narcisista };
 ```
 
 <br />
