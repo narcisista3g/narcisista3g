@@ -20,7 +20,7 @@ Here are some ideas to get you started:
   <a href"https://github.com/narcisista3g?tab=followers">
     <img alt="GitHub followers" src="https://img.shields.io/github/followers/narcisista3g?colorA=1e1e28&colorB=c9cbff&logo=Github&style=for-the-badge" />
   </a>
-  <a href="https://twitter.com/strange_silva">
+  <a href="https://twitter.com/narcisista3g">
      <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/strange_silva?colorB=c6aae8&colorA=1e1e28&label=Follow&logo=twitter&logoColor=white&style=for-the-badge">
   </a>
   <a href="https://discord.gg/6cr4MnsCYY">
